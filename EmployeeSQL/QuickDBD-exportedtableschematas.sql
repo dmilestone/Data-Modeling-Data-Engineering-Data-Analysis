@@ -1,9 +1,6 @@
 -- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
--- Modify this code to update the DB schema diagram.
--- To reset the sample schema, replace everything with
--- two dots ('..' - without quotes).
 
 CREATE TABLE "employees" (
     "emp_no" int   NOT NULL,
@@ -27,11 +24,11 @@ CREATE TABLE "departments" (
 
 CREATE TABLE "titles" (
     "emp_no" int   NOT NULL,
-    "title" (varchar)   NOT NULL,
+    "title" varchar   NOT NULL,
     "from_date" date   NOT NULL,
     "to_date" date   NOT NULL,
     CONSTRAINT "pk_titles" PRIMARY KEY (
-        "emp_no","from_date"
+        "emp_no"
      )
 );
 
@@ -41,7 +38,7 @@ CREATE TABLE "dept_emp" (
     "from_date" date   NOT NULL,
     "to_date" date   NOT NULL,
     CONSTRAINT "pk_dept_emp" PRIMARY KEY (
-        "emp_no"
+        "emp_no","dept_no"
      )
 );
 
