@@ -10,6 +10,7 @@ Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool li
 2. Import each CSV file into the corresponding SQL table.
 
 ## Data Analysis
+### In SQL:
 1. List the following details of each employee: employee number, last name, first name, gender, and salary.
 2. List employees who were hired in 1986.
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
@@ -18,11 +19,13 @@ Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool li
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
-9. Import the SQL database into Pandas. 
+
+### Import the SQL database into Pandas. 
   -from sqlalchemy import create_engine
   -engine = create_engine('postgresql://localhost:5432/<your_db_name>')
   -connection = engine.connect()
-10. Create a bar chart of average salary by title.
+
+### Create a bar chart of average salary by title.
 
 ![Bar Chart](EmployeeSQL/barplot1.png)
 
