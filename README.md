@@ -3,7 +3,6 @@
 ## Data Modeling
 Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like http://www.quickdatabasediagrams.com.
 
-![GitHub Logo](/EmplyeeSQL/QuickDBD-exportdiagramscreenshot.png )
 Format: ![ERD Diagram](/EmplyeeSQL/QuickDBD-exportdiagramscreenshot.png)
 
 ## Data Engineering
