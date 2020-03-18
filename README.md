@@ -3,7 +3,7 @@
 ## Data Modeling
 Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like http://www.quickdatabasediagrams.com.
 
-Format: ![ERD Diagram](/EmplyeeSQL/QuickDBD-exportdiagramscreenshot.png)
+![ERD Diagram](/EmplyeeSQL/QuickDBD-exportdiagramscreenshot.png)
 
 ## Data Engineering
 Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
