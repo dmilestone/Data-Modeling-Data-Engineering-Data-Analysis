@@ -3,7 +3,7 @@
 ## Data Modeling
 Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like http://www.quickdatabasediagrams.com.
 
-![ERD Diagram](EmployeeSQL/QuickDBD-exportdiagramscreenshot.png)
+![ERD Diagram](QuickDBD-exportdiagramscreenshot.png)
 
 ## Data Engineering
 1. Use the information you have to create a table schema for each of the six CSV files, specifying data types, primary keys, foreign keys, and other constraints.
@@ -27,7 +27,7 @@ Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool li
 
 ### Create a bar chart of average salary by title.
 
-![Bar Chart](EmployeeSQL/barplot1.png)
+![Bar Chart](barplot1.png)
 
 
 
